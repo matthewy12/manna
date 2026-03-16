@@ -62,7 +62,9 @@ export default function Home() {
     <main className="min-h-screen bg-slate-50 p-4 md:p-8 font-sans">
       <div className="max-w-6xl mx-auto">
         <header className="mb-8">
-          <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight">Manna | AI Study Tool</h1>
+          <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight">Manna  | </h1> <span className="text-lg font-normal text-slate-500 tracking-normal">
+            The AI Study Platform
+          </span>
           <p className="text-slate-600 mt-2 text-lg">Turn any book chapter into bite-sized fun and discussion</p>
         </header>
 
@@ -83,7 +85,7 @@ export default function Home() {
               disabled={isGenerating || !inputText}
               className="mt-4 w-full bg-indigo-600 text-white font-bold py-4 px-4 rounded-xl hover:bg-indigo-700 disabled:bg-indigo-300 transition-colors shadow-sm"
             >
-              {isGenerating ? status : 'Generate Study Guide'}
+              {isGenerating ? status : 'Generate Study Guide & Media'}
             </button>
           </div>
 
