@@ -62,8 +62,8 @@ export default function Home() {
     <main className="min-h-screen bg-slate-50 p-4 md:p-8 font-sans">
       <div className="max-w-6xl mx-auto">
         <header className="mb-8">
-          <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight">Manna</h1>
-          <p className="text-slate-600 mt-2 text-lg">Turn any book chapter into a bite-sized study guide.</p>
+          <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight">Manna | AI Study Tool</h1>
+          <p className="text-slate-600 mt-2 text-lg">Turn any book chapter into bite-sized fun and discussion</p>
         </header>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
